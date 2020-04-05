@@ -1,0 +1,16 @@
+.video{
+  display: flex;
+  flex-direction: column;
+
+  .title{
+    text-align: center;
+    padding: 50px;
+    font-size: x-large;
+    font-weight: 700;
+  }
+
+  iframe{
+    height: 630px;
+
+  }
+}

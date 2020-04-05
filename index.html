@@ -1,7 +1,16 @@
 ---
 title: Home
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+
+<div class="home">
+  {% include header.html %}
+  <section class="video">
+    <span class="title">The #1 App for Fashion Designers</span>
+    <iframe src="https://www.youtube.com/embed/9ZkubdrKn94?feature=oembed&start&end&wmode=opaque&loop=0&controls=1&mute=0&rel=0&modestbranding=0" allowfullscreen title="youtube Video Player"></iframe>
+  </section>
+</div>
+
+<!-- <h1>{{ "Hello World!" | downcase }}</h1>
 <button id="sweet-alert-demo" class="btn btn-primary">Click me!</button>
 <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -13,4 +22,4 @@ title: Home
     <a class="dropdown-item" href="#">Something else here</a>
   </div>
 </div>
-<i class="fas fa-arrow-alt-circle-left"></i>
+<i class="fas fa-arrow-alt-circle-left"></i> -->
